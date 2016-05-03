@@ -12,14 +12,15 @@
   },
   "dependencies": {
     "config": "*",
+    "ect": "*",
+    "elasticsearch": "^11.0.1",
     "koa": "*",
-    "koa-router": "*",
-    "koa-render": "*",
+    "koa-bodyparser": "*",
     "koa-generic-session": "*",
     "koa-passport": "*",
-    "koa-bodyparser": "*",
-    "passport-local": "*",
-    "ect": "*"
+    "koa-render": "*",
+    "koa-router": "*",
+    "passport-local": "*"
   },
   "devDependencies": {
     "jasmine-node": "*"
