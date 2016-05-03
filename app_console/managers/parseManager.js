@@ -10,8 +10,8 @@
 	module.exports = {
 
 		/**
-		 * @func countTotalQueries
-		 * @param indexName {string} Индекс в котором выполняется запрос
+		 * @func parse
+		 * @param count
 		 * @description Вычисляет общее количество запросов
 		 * @returns {{totalQueries: int}}
 		 */
