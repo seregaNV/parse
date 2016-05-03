@@ -34,10 +34,20 @@ module.exports = {
 				var $ = cheerio.load(translator.convert(body));
 				var reviews = [];
 				$('.description').each(function(){
-					cards.push({
-						description:$('.description').text()
+					reviews.push({
+						description: $('.description').text()
 						//url:$('a',this).attr('href')
 					});
+				});
+				$('.rates i').each(function(){
+					var obj = {};
+					obj[$('.rates i').text()] = $('.rates span').attr('title');
+					reviews.push(obj);
+					//reviews.push({
+						//$('.rates i').text()[$('.rates').text()]
+					//rates: $('.rates').text()
+						//url:$('a',this).attr('href')
+					//});
 				});
 				console.log('reviews - ', reviews);
 			}
