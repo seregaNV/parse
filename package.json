@@ -15,6 +15,7 @@
     "config": "*",
     "ect": "*",
     "elasticsearch": "^11.0.1",
+    "iconv": "^2.2.0",
     "koa": "*",
     "koa-bodyparser": "*",
     "koa-generic-session": "*",
