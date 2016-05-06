@@ -22,9 +22,11 @@
     "koa-passport": "*",
     "koa-render": "*",
     "koa-router": "*",
+    "mysql": "^2.10.2",
     "passport-local": "*",
     "q": "^1.4.1",
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "jasmine-node": "*"
